@@ -1,6 +1,7 @@
 ﻿<?php
 header('Access-Control-Allow-Origin: *');
-header('Content-type: text/plain');
+//header('Content-type: text/plain');
+header('Content-type: text/json;charset=UTF-8');
 
 require_once "WxPay.Api.php";
 require_once "WxPay.Data.php";
